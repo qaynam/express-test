@@ -43,7 +43,7 @@ router.get("/", function (req, res, next) {
               },
               mounted() {
                 // バックエンドのエンドポイントを適切なものに変更してください
-                const backendEndpoint = 'http://localhost:30000/notes_from_b';
+                const backendEndpoint = '/notes_from_b';
 
                 // AXIOSを使用してデータを取得
                 axios.get(backendEndpoint)
