@@ -4,7 +4,6 @@ var router = express.Router();
 /* GET home page. */
 router.get("/", function (req, res, next) {
   res.send(`
-    cat v-for2.html
     <!DOCTYPE html>
     <html lang="ja">
         <head>
